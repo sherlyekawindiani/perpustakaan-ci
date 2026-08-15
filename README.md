@@ -67,3 +67,29 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+
+
+# 📚 Portal Informasi Buku - CodeIgniter 4
+
+## ⚡ Cara Cepat Jalankan Web Lokal
+
+1. **Nyalakan Service:**
+   * Buka **XAMPP Control Panel** -> Klik **Start** pada **Apache** & **MySQL**.
+
+2. **Jalankan Development Server:**
+   * Buka terminal di folder project (VS Code / CMD), lalu jalankan:
+     ```bash
+     php spark serve
+     ```
+
+3. **Akses Web di Browser:**
+   * **URL Utama:** [http://localhost:8080/buku](http://localhost:8080/buku)
+
+---
+
+## 🛠️ Requirements & Tech Stack
+* **Framework:** CodeIgniter 4 (MVC)
+* **Language:** PHP 8.2+
+* **Database:** MySQL (via XAMPP / MySQL Workbench)
+* **Web Server:** Apache
